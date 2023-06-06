@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Google essentials",
+    "description": "Launcher for all google apps and games",
+    "version": "0.0.1",
+    "icons": {
+        "100": "logo.png"
+    },
+    "action": {
+        "default_icon": "logo.png",
+        "default_popup": "index.html",
+        "default_title": "Google Apps"
+    },
+    "permissions": ["storage", "tabs"]
+}
