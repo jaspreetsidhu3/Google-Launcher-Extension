@@ -2,7 +2,7 @@ var content = document.getElementById('body-content');
 home();
 
 function home() {
-    content.innerHTML = `<div class="flex-container">
+    content.innerHTML = `<div class="flex-container justify-content-around">
     <div class="flex">
         <a id="googleSearch" href="https://www.google.com/" target="_blank">
             <span class="input-group-text" id="basic-addon1">
@@ -34,7 +34,7 @@ function home() {
         </a>
     </div>
     </div>
-    <div class="flex-container">
+    <div class="flex-container justify-content-around">
     <div class="flex">
         <a id="calender" href="https://calendar.google.com/calendar/u/0/r" target="_blank">
             <span class="input-group-text" id="basic-addon1">
@@ -68,7 +68,7 @@ function home() {
         </a>
     </div>
     </div>
-    <div class="flex-container">
+    <div class="flex-container justify-content-around">
     <div class="flex">
         <a id="bard" href="https://bard.google.com/" target="_blank">
             <span class="input-group-text" id="basic-addon1">
@@ -105,7 +105,7 @@ function home() {
 }
 
 function productivity() {
-    content.innerHTML = `<div class="flex-container">
+    content.innerHTML = `<div class="flex-container justify-content-around">
     <div class="flex">
         <a id="googleSearch" href="https://www.google.com/" target="_blank">
             <span class="input-group-text" id="basic-addon1">
@@ -139,7 +139,7 @@ function productivity() {
     </a>
     </div>
     </div>
-    <div class="flex-container">
+    <div class="flex-container justify-content-around">
     <div class="flex">
     <a id="meeting" href="https://meet.google.com/landing" target="_blank">
     <span class="input-group-text" id="basic-addon1">
@@ -168,7 +168,7 @@ function productivity() {
 }
 
 function entertainment() {
-    content.innerHTML = `<div class="flex-container">
+    content.innerHTML = `<div class="flex-container justify-content-around">
     <div class="flex">
         <a id="youtube" href="https://www.youtube.com/" target="_blank">
             <span class="input-group-text" id="basic-addon1">
@@ -176,14 +176,6 @@ function entertainment() {
         </span>
             <p>Youtube</p>
         </a>
-    </div>
-    <div class="flex">
-    <a id="spotify" href="https://open.spotify.com/search" target="_blank">
-    <span class="input-group-text" id="basic-addon1">
-    <svg style="color: blue" xmlns="http://www.w3.org/2000/svg" width="32" height="47" fill="currentColor" class="bi bi-spotify" viewBox="0 0 16 16"> <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z" fill="blue"></path> </svg>
-    </span>
-    <p>Spotify</p>
-    </a>
     </div>
     <div class="flex">
     <a id="tv" href="https://tv.google/" target="_blank">
@@ -197,7 +189,7 @@ function entertainment() {
 }
 
 function communication() {
-    content.innerHTML = `<div class="flex-container">
+    content.innerHTML = `<div class="flex-container justify-content-around">
     <div class="flex">
         <a id="gmail" href="https://mail.google.com/mail/u/0/" target="_blank">
             <span class="input-group-text" id="basic-addon1">
@@ -226,7 +218,7 @@ function communication() {
 }
 
 function social() {
-    content.innerHTML = `<div class="flex-container">
+    content.innerHTML = `<div class="flex-container justify-content-around">
     <div class="flex">
         <a id="gmail" href="https://mail.google.com/mail/u/0/" target="_blank">
             <span class="input-group-text" id="basic-addon1">
@@ -263,7 +255,7 @@ function social() {
 }
 
 function office() {
-    content.innerHTML = `<div class="flex-container">
+    content.innerHTML = `<div class="flex-container justify-content-around">
     <div class="flex">
         <a id="sheets" href="https://docs.google.com/spreadsheets/u/0/" target="_blank">
             <span class="input-group-text" id="basic-addon1">
@@ -297,7 +289,7 @@ function office() {
     </a>
     </div>
     </div>
-    <div class="flex-container">
+    <div class="flex-container justify-content-around">
     <div class="flex">
         <a id="slides" href="https://docs.google.com/presentation/u/0/" target="_blank">
             <span class="input-group-text" id="basic-addon1">
@@ -311,7 +303,7 @@ function office() {
 }
 
 function health() {
-    content.innerHTML = `<div class="flex-container">
+    content.innerHTML = `<div class="flex-container justify-content-around">
     <div class="flex">
         <a id="Fits" href="https://news.google.com/topics/CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen" target="_blank">
             <span class="input-group-text" id="basic-addon1">
@@ -324,7 +316,7 @@ function health() {
 }
 
 function games() {
-    content.innerHTML = `<div class="flex-container">
+    content.innerHTML = `<div class="flex-container justify-content-around">
     <div class="flex">
         <a id="quickdraw" href="https://quickdraw.withgoogle.com/" target="_blank">
             <span class="input-group-text" id="basic-addon1">
@@ -358,7 +350,7 @@ function games() {
     </a>
 </div>
     </div>
-    <div class="flex-container">
+    <div class="flex-container justify-content-around">
     <div class="flex">
         <a id="cricket" href="https://doodlecricket.github.io/#/" target="_blank">
             <span class="input-group-text" id="basic-addon1">
@@ -392,7 +384,7 @@ function games() {
     </a>
 </div>
 </div>
-<div class="flex-container">
+<div class="flex-container justify-content-around">
 <div class="text-center">
 <a class="btn-design" href="https://sites.google.com/site/populardoodlegames/home" id="moreGames" target="_blank">More google games</a>
 </div>
